@@ -23,7 +23,9 @@
 
 ## Быстрый старт
 
-Нужны Windows 10 или новее, установленная Factorio 2.0 (GOG, Steam или zip-версия) и Go 1.24 или новее для сборки.
+Нужны Windows 10 или новее и установленная Factorio 2.0 (GOG, Steam или zip-версия).
+
+Скачайте [flserver.exe](https://github.com/ospab/factorio-lightserver/releases/latest/download/flserver.exe) со страницы [Releases](https://github.com/ospab/factorio-lightserver/releases), положите в отдельную папку (настройки и файлы он хранит рядом с собой) и запустите. Файл не подписан, поэтому Windows SmartScreen может предупредить; контрольная сумма указана на странице релиза. Или соберите сами, нужен Go 1.24 или новее:
 
 ```powershell
 git clone https://github.com/ospab/factorio-lightserver

@@ -23,7 +23,9 @@ No separate server download, no Linux, no Docker. One small `flserver.exe`.
 
 ## Quick start
 
-You need Windows 10 or later, Factorio 2.0 installed (GOG, Steam or the zip version), and Go 1.24 or later to build.
+You need Windows 10 or later and Factorio 2.0 installed (GOG, Steam or the zip version).
+
+Download [flserver.exe](https://github.com/ospab/factorio-lightserver/releases/latest/download/flserver.exe) from the [Releases](https://github.com/ospab/factorio-lightserver/releases) page, put it in its own folder (it keeps its settings and files next to itself) and run it. The file is not code-signed, so Windows SmartScreen may warn about it; the checksum is on the release page. Or build it yourself with Go 1.24 or later:
 
 ```powershell
 git clone https://github.com/ospab/factorio-lightserver
